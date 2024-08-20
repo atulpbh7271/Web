@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5d9d9;
+}
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgb(237, 229, 229);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header h1 {
+    font-size: 24px;
+    color: #2b2b8a;
+    margin: 0;
+}
+
+.form-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* text-align: center; */
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-section {
+    width: 48%;
+}
+
+.name-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.birth-date-fields input,
+input[type="text"],
+input[type="email"] {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="email"],
+input[type="text"] {
+    width: calc(100% - 20px);
+}
+
+input[type="email"] {
+    margin-right: 0;
+}
+
+.required {
+    color: red;
+}
+
+.birth-date-fields input:last-child {
+    margin-right: 0;
+}
+
+
+
